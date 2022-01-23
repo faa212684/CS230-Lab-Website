@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { BottomNavBarComponent } from './Footer/bottomnavbar.component';
 import { SecondNavBarComponent } from './Header/secondnavbar.component';
 import { TopNavBarComponent } from './Header/topnavbar.component';
 
@@ -9,7 +10,8 @@ import { TopNavBarComponent } from './Header/topnavbar.component';
   declarations: [
     AppComponent,
     TopNavBarComponent,
-    SecondNavBarComponent
+    SecondNavBarComponent,
+    BottomNavBarComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,41 @@
+.dd-sign-in {
+    background-color: #db0a81;
+    border: 2px solid #db0a81;
+    border-radius: 50px;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.dd-sign-up {
+    background-color: white;
+    border: 2px solid #db0a81;
+    border-radius: 50px;
+    color: #db0a81;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.dd-sign-up:hover {
+    background-color: #db0a81;
+    color: #fff;
+}
+
+.dd-careers {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+    font-family: DunkinSansBook, "Montserrat", sans-serif;
+}
