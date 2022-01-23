@@ -1,5 +1,20 @@
-.dd-footer {
+.dd-copy-rights {
     text-align: center;
     color: #333;
     letter-spacing: .84px;
+    font-family: DunkinSansBook, "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .86rem;
+    line-height: 14px;
+    margin-bottom: 0;
+}
+
+.dd-links {
+    color: black;
+    font-family: DunkinSansDisplay, DunkinSansBook, "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: .86rem;
+    text-decoration: none !important;
+    display: inline-block;
 }
