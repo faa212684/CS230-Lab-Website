@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BottomNavBarComponent } from './Footer/bottomnavbar.component';
+import { SecondBottomNavBarComponent } from './Footer/secondbottomnavbar.component';
+import { ThirdBottomNavBarComponent } from './Footer/thirdbottomnavbar.component';
 import { SecondNavBarComponent } from './Header/secondnavbar.component';
 import { TopNavBarComponent } from './Header/topnavbar.component';
 
@@ -11,7 +13,9 @@ import { TopNavBarComponent } from './Header/topnavbar.component';
     AppComponent,
     TopNavBarComponent,
     SecondNavBarComponent,
-    BottomNavBarComponent
+    BottomNavBarComponent,
+    SecondBottomNavBarComponent,
+    ThirdBottomNavBarComponent
   ],
   imports: [
     BrowserModule

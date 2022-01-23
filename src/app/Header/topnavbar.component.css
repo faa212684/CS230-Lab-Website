@@ -10,6 +10,10 @@
     transition: all 250ms ease-in-out;
 }
 
+.dd-sign-in:hover {
+    background-color: #752552;
+}
+
 .dd-sign-up {
     background-color: white;
     border: 2px solid #db0a81;
