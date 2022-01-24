@@ -1,0 +1,13 @@
+.dd-style {
+    color: #333;
+    border-style: none;
+    outline-style: none;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.dd-style:hover {
+    color: #db0a81;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
