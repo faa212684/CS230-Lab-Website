@@ -13,8 +13,15 @@
 .dd-links {
     color: black;
     font-family: DunkinSansDisplay, DunkinSansBook, "Montserrat", sans-serif;
-    font-weight: bolder;
+    font-weight: 900;
     font-size: .86rem;
     text-decoration: none !important;
     display: inline-block;
+}
+
+.dd-links:hover {
+    color: #db0a81;
+    text-decoration-line: underline;
+    text-decoration-color: #db0a81;
+    transition: color 250ms ease-in-out;
 }

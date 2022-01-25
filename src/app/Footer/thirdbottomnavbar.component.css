@@ -1,3 +1,24 @@
-.dd-icons {
+.dd-links {
+    color: #333;
+    text-decoration: none;
+    font-family: DunkinSansDisplay, DunkinSansBook, "Montserrat", sans-serif;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.dd-links:hover {
+    transition: color 250ms ease-in-out;
     color: #db0a81;
+    text-decoration-line: underline;
+    text-decoration-color: #db0a81;
+}
+
+.dd-none-links {
+    font-family: DunkinSansBook, "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 17px;
 }

@@ -7,6 +7,7 @@
     text-transform: uppercase;
     cursor: pointer;
     transition: all 250ms ease-in-out;
+    text-decoration-line: none;
 }
 
 .dd-sign-in:hover {
@@ -15,6 +16,7 @@
 
 .dd-sign-up {
     background-color: white;
+    text-decoration-line: none;
     border: 2px solid #db0a81;
     border-radius: 20px;
     color: #db0a81;
@@ -39,4 +41,9 @@
     cursor: pointer;
     transition: all 250ms ease-in-out;
     font-family: DunkinSansBook, "Montserrat", sans-serif;
+}
+
+.dd-careers:link {
+    color: black;
+    border-color: black;
 }
