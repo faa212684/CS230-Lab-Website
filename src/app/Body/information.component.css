@@ -1,0 +1,38 @@
+.dd-visit {
+    color: #f56200 !important;
+    font-size: 55px;
+    line-height: 66px;
+    font-style: normal;
+    font-family: DunkinSansDisplay, DunkinSansBook, "Montserrat", sans-serif;
+    font-weight: 800;
+    text-shadow: none !important;
+}
+
+.dd-find {
+    font-family: DunkinSansBook, "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: .5rem;
+    margin-top: .25rem;
+    color: #333 !important;
+}
+
+.dd-closest {
+    color: #db0a81;
+    font-size: 1rem;
+    font-family: DunkinSansBook, "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: 1;
+}
+
+.dd-locations {
+    color: #db0a81;
+    font-size: 1rem;
+    font-family: DunkinSansDisplay, DunkinSansBook, "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+}
