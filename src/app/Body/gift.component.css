@@ -1,0 +1,40 @@
+.dd-send {
+    background-color: #db0a81;
+    border: 2px solid #db0a81;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: 1.15rem;
+    color: #fff;
+    line-height: 1;
+    height: auto;
+    margin: .5rem auto;
+    width: auto;
+    min-height: 45px;
+    min-width: 200px;
+    padding: 13px;
+    text-align: center;
+    transition: all 250ms ease-in-out;
+    text-decoration-line: none;
+    font-style: normal;
+    font-family: DunkinSansDisplay, DunkinSansBook, "Montserrat", sans-serif;
+}
+
+.dd-mugs {
+    width: 100%;
+    min-height: 430px;
+}
+
+.dd-statement {
+    color: black;
+    width: 98%;
+    line-height: 1.3;
+    font-family: DunkinSansBook, "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.35rem;
+}
+
+.dd-card-img {
+    width: 100%;
+    height: 75%;
+}

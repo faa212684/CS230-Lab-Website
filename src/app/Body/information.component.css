@@ -36,3 +36,64 @@
     font-weight: 800;
     line-height: 24px;
 }
+
+.dd-state {
+    color: #333;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 1.2;
+    font-family: DunkinSansBook, "Montserrat", sans-serif;
+}
+
+.dd-times {
+    font-family: DunkinSansDisplay, DunkinSansBook, "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    color: #333;
+}
+
+.dd-phone {
+    font-size: 1rem;
+}
+
+.dd-details {
+    width: 126px;
+    height: 30px;
+    min-height: auto;
+    min-width: auto;
+    padding: 7px;
+    margin: 0 auto 20px auto;
+    font-size: 12px;
+    background-color: #db0a81;
+    border: 2px solid #db0a81;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    transition: all 250ms ease-in-out;
+    font-style: normal;
+    font-weight: 800;
+    text-decoration-line: none;
+}
+
+.dd-view {
+    background-color: #db0a81;
+    border: 2px solid #db0a81;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: 1.15rem;
+    color: #fff;
+    line-height: 1;
+    height: auto;
+    width: auto;
+    min-height: 45px;
+    min-width: 200px;
+    padding: 13px;
+    transition: all 250ms ease-in-out;
+    text-decoration-line: none;
+    font-weight: 800;
+    font-style: normal;
+    font-family: DunkinSansDisplay, DunkinSansBook, "Montserrat", sans-serif;
+}
