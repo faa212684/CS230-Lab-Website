@@ -1,13 +1,14 @@
 .dd-style {
-    color: #333;
+    color: black;
     border-style: none;
     outline-style: none;
-    font-weight: 900;
-    text-decoration: none !important;
+    font-weight: bold;
+    text-decoration: none;
     font-style: normal;
     font-size: 1.15rem;
-    font-family: sans-serif;
+    font-family: DunkinSansBook, "Montserrat", sans-serif;
     background-color: white;
+    transition: color 250ms ease-in-out;
 }
 
 .dd-style:hover {
