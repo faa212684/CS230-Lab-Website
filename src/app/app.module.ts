@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { ApplyHereComponent } from './Body/applyhere.component';
 import { GiftComponent } from './Body/gift.component';
 import { InformationComponent } from './Body/information.component';
+import { MenuItemsComponent } from './Body/menuitems.component';
 import { BottomNavBarComponent } from './Footer/bottomnavbar.component';
 import { SecondBottomNavBarComponent } from './Footer/secondbottomnavbar.component';
 import { ThirdBottomNavBarComponent } from './Footer/thirdbottomnavbar.component';
@@ -21,7 +22,8 @@ import { TopNavBarComponent } from './Header/topnavbar.component';
     ThirdBottomNavBarComponent,
     InformationComponent,
     ApplyHereComponent,
-    GiftComponent
+    GiftComponent,
+    MenuItemsComponent
   ],
   imports: [
     BrowserModule
