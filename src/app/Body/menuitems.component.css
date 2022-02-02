@@ -36,3 +36,10 @@
     color: white;
     background-color: white;
 }
+
+.dd-pic:hover {
+    background-color: transparent;
+    transition: .3s ease;
+    transform: scale(1);
+    -ms-transform: scale(1);
+}
