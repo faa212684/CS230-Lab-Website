@@ -10,7 +10,14 @@
     </div>
 </div> -->
 <DD-gift>Loading...</DD-gift>
-<DD-information>Loading...</DD-information>
+<!-- <DD-information>Loading...</DD-information> -->
+
+<div *ngFor="let information of informations">
+    <DD-information img={{information.img}} header={{information.header}} find={{information.find}} nearest={{information.nearest}} address={{information.address}} state={{information.state}} hours={{information.hours}} phone={{information.phone}}>
+        Loading...
+    </DD-information>
+</div>
+
 <DD-thirdbottomnavbar>Loading...</DD-thirdbottomnavbar>
 <DD-secondbottomnavbar>Loading...</DD-secondbottomnavbar>
 <DD-bottomnavbar>Loading...</DD-bottomnavbar>
