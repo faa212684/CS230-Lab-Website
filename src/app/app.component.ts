@@ -11,13 +11,13 @@ import { mock_information_list } from './Body/mock_information_list';
 })
 export class AppComponent {
   title = 'dunkin-donuts';
-  menu: MenuItemModel[] = [];
+  menus: MenuItemModel[] = [];
   informations: InformationListModel[] = [];
 
   constructor() {
-    for(var products of mock_menu_list){
-      console.log(products)
-      this.menu.push(products);
+    for(var menu of mock_menu_list){
+      console.log(menu)
+      this.menus.push(menu);
     }
 
     for(var information of mock_information_list){
