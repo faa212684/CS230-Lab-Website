@@ -11,6 +11,14 @@ import { SecondBottomNavBarComponent } from './Footer/secondbottomnavbar.compone
 import { ThirdBottomNavBarComponent } from './Footer/thirdbottomnavbar.component';
 import { SecondNavBarComponent } from './Header/secondnavbar.component';
 import { TopNavBarComponent } from './Header/topnavbar.component';
+import { AppRoutingModule } from './app-routing.module';
+import { MenuLayoutComponent } from './Routes/menu-layout.component';
+import { HomeLayoutComponent } from './Routes/home-layout.component';
+import { LocationLayoutComponent } from './Routes/location-layout.component';
+import { DeliveryLayoutComponent } from './Routes/delivery-layout.component';
+import { PerksLayoutComponent } from './Routes/perks-layout.component';
+import { CardsLayoutComponent } from './Routes/cards-layout.component';
+import { ShopLayoutComponent } from './Routes/shop-layout.component';
 
 @NgModule({
   declarations: [
@@ -23,10 +31,18 @@ import { TopNavBarComponent } from './Header/topnavbar.component';
     InformationComponent,
     ApplyHereComponent,
     GiftComponent,
-    MenuItemsComponent
+    MenuItemsComponent,
+    MenuLayoutComponent,
+    HomeLayoutComponent,
+    LocationLayoutComponent,
+    DeliveryLayoutComponent,
+    PerksLayoutComponent,
+    CardsLayoutComponent,
+    ShopLayoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
