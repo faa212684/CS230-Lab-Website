@@ -9,6 +9,8 @@ import { DeliveryLayoutComponent } from './Routes/delivery-layout.component';
 import { CardsLayoutComponent } from './Routes/cards-layout.component';
 import { PerksLayoutComponent } from './Routes/perks-layout.component';
 import { ShopLayoutComponent } from './Routes/shop-layout.component';
+import { CareersLayoutComponent } from './Routes/careers-layout.component';
+import { OpportunitiesLayoutComponent } from './Routes/opportunities-layout.component';
 
 const routes:Routes = [
   {
@@ -38,7 +40,16 @@ const routes:Routes = [
   {
     path: 'en/shop',
     component: ShopLayoutComponent
+  },
+  {
+    path: 'en/careers',
+    component: CareersLayoutComponent
+  },
+  {
+    path: 'en/careers/career-opportunities',
+    component: OpportunitiesLayoutComponent
   }
+
 ];
 
 @NgModule({
