@@ -22,3 +22,5 @@ Bonus Features:
     careers-layout.component.html
     opportunities-layout.component.html
     home-layout.component.html
+  - Updated the topnavbar components to incoporate the new routerlinks 
+  - Added routerlink to the "apply here statement" (same link as the opportunities-layout.component.html)
