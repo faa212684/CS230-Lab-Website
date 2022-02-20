@@ -1,0 +1,26 @@
+Main Features:
+  - Created the mandatory 5 new layout components for the main navigation bar
+      delivery-layout.component.html
+      location-layout.component.html
+      menu-layout.component.html
+      perks-layout.component.html
+      shop-layout.component.html
+     - Each component contains a seperate ts file and will eventually contain a css file
+  - Created the mandatory 5 new routing sections to app-routing.module
+      menu
+      location
+      dunkin-delivery
+      dd-perks
+      dunkin-cards
+      shop
+  - All components of the website were already in the appropriate spots, no formating of the website was needed
+  - Moved all homepage components from app.component.html to home-layout.component.html
+  
+Bonus Features:
+  - Added three extra routing components to app-routing.module
+  - Created the three new components within the routes folder
+    careers-layout.component.html
+    opportunities-layout.component.html
+    home-layout.component.html
+  - Updated the topnavbar components to incoporate the new routerlinks 
+  - Added routerlink to the "apply here statement" (same link as the opportunities-layout.component.html)
