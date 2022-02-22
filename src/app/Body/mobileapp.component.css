@@ -1,0 +1,27 @@
+.dd-header {
+    color: #f56200 !important;
+    text-shadow: none !important;
+    font-size: 75px;
+    line-height: 96px;
+    font-family: DunkinSansDisplay !important;
+}
+
+.dd-second-header {
+    font-size: 52px;
+    line-height: 66px;
+    color: #db0a81;
+    font-family: DunkinSansDisplay !important;
+}
+
+.dd-para {
+    margin: 0 0 20px 0;
+    line-height: 1.3;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: DunkinSansBook !important;
+}
+
+.dd-style {
+    border-style: none;
+    background-color: white;
+}

@@ -21,6 +21,7 @@ import { CardsLayoutComponent } from './Routes/cards-layout.component';
 import { ShopLayoutComponent } from './Routes/shop-layout.component';
 import { MenuPageComponent } from './Routes/MenuItemsPage/menupage.component';
 import { MenuHeaderComponent } from './Routes/MenuItemsPage/menuheader.component';
+import { MobileAppComponent } from './Body/mobileapp.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { MenuHeaderComponent } from './Routes/MenuItemsPage/menuheader.component
     CardsLayoutComponent,
     ShopLayoutComponent,
     MenuPageComponent,
-    MenuHeaderComponent
+    MenuHeaderComponent,
+    MobileAppComponent
   ],
   imports: [
     BrowserModule,
