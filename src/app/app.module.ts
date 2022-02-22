@@ -19,6 +19,8 @@ import { DeliveryLayoutComponent } from './Routes/delivery-layout.component';
 import { PerksLayoutComponent } from './Routes/perks-layout.component';
 import { CardsLayoutComponent } from './Routes/cards-layout.component';
 import { ShopLayoutComponent } from './Routes/shop-layout.component';
+import { MenuPageComponent } from './Routes/MenuItemsPage/menupage.component';
+import { MenuHeaderComponent } from './Routes/MenuItemsPage/menuheader.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { ShopLayoutComponent } from './Routes/shop-layout.component';
     DeliveryLayoutComponent,
     PerksLayoutComponent,
     CardsLayoutComponent,
-    ShopLayoutComponent
+    ShopLayoutComponent,
+    MenuPageComponent,
+    MenuHeaderComponent
   ],
   imports: [
     BrowserModule,
