@@ -25,3 +25,8 @@
     width: auto;
     height: auto;
 }
+
+.card {
+    width: 15rem;
+    height: 370px;
+}
