@@ -1,0 +1,20 @@
+.dd-header {
+    font-size: 50px;
+    line-height: 31px;
+    font-family: DunkinSansDisplay, DunkinSansBook, "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #333 !important;
+    text-align: center;
+}
+
+.dd-paragraph {
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 1rem;
+    padding: 0 5%;
+    font-family: DunkinSansBook, "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: .5rem;
+    color: #333 !important;
+}
