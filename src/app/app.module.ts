@@ -22,6 +22,8 @@ import { ShopLayoutComponent } from './Routes/shop-layout.component';
 import { MenuPageComponent } from './Routes/MenuItemsPage/menupage.component';
 import { MenuHeaderComponent } from './Routes/MenuItemsPage/menuheader.component';
 import { MobileAppComponent } from './Body/mobileapp.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -44,11 +46,13 @@ import { MobileAppComponent } from './Body/mobileapp.component';
     ShopLayoutComponent,
     MenuPageComponent,
     MenuHeaderComponent,
-    MobileAppComponent
+    MobileAppComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
