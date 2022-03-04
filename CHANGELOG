@@ -1,26 +1,14 @@
 Main Features:
-  - task 1: Created the mandatory 6 new components within the Delivery and Menu layouts 
-    - Created cards, search bars, and buttons through each of the two layouts 
-    - components are throughout the 
-      menupage.component.html
-      menuheader.component.html
-      delivery-layout.component.html
-      mobileapp.component.html
-       
-  - task 2: Created mock list and model for the ngFor loop within the menu layout page
-    - note: I am struggling with getting the format correctly but i have it working for each of the cards component aspects
-    - ngFor Loop is set within the menu-layout.component.html, which comes from the menupage.component.html
-      - Attributes added
-        - three strings (img/header/button)
-        - 9 instances of the loop
-  - task 3: All components are already in a container within each html file, with the exception of the ngFor loop within the menu-layout.component.html. 
-            This component has "container d-flex" to line up vertically within a row
+  - task 1: Created an account on firebase through my mix email. This contains my "myInfo" backend information for this lab.
+  - task 2: Ceated a realtime database called "Dunkin-Donuts" that contains the following attributes:
+    - FirstName
+    - GitHub
+    - LastName
+    - Mix_ID
+  - task 3: Added the Http Client into app.module within my repository.
+  - task 4: Created new component "user-info" that contains a html, ts, and css file
+    - added data binding to the html file for each of the user information from fire base
+    - added the html component at the top of the home page in the app.component.html file 
       
 Bonus Features:
-  - Added a two components to the location-layout.component.html
-    two cards:
-      - one card has a statement within a search bar, button, and filter.
-      - other card is supposed to be a list from a map (cannot understand how to insert that)
-        - this components has the list of 3 locations within the morgantown area
-  - On the main page or (home-layout.component.html) added another card component that also connects with the menu page
-  - Added CSS and best to my ability formatting everything to my possible extent
+  N/A
