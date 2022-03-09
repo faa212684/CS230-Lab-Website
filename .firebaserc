@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "dunkin-donuts-735b8"
+  },
+  "targets": {
+    "dunkin-donuts-735b8": {
+      "hosting": {
+        "dunkin-donuts": [
+          "dunkin-donuts-735b8"
+        ]
+      }
+    }
   }
 }
