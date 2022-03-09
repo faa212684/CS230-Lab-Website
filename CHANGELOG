@@ -1,14 +1,32 @@
 Main Features:
-  - task 1: Created an account on firebase through my mix email. This contains my "myInfo" backend information for this lab.
-  - task 2: Ceated a realtime database called "Dunkin-Donuts" that contains the following attributes:
-    - FirstName
-    - GitHub
-    - LastName
-    - Mix_ID
-  - task 3: Added the Http Client into app.module within my repository.
-  - task 4: Created new component "user-info" that contains a html, ts, and css file
-    - added data binding to the html file for each of the user information from fire base
-    - added the html component at the top of the home page in the app.component.html file 
-      
+  - task 1: Moved my mock-information-list.ts file information to my backend, added all three attributes I had for each
+    - img
+    - header
+    - find
+    - nearest
+    - address
+    - state
+    - hours
+    - phone 
+  - task 2: Created a service component, information.service.ts, to connect my backend information list to the website
+    - contains:
+      - baseURL
+      - informationEndPoint
+      - private HttpClient
+      - getInformation Method
+  - task 3: After creating the service component for the information mock list, i updated the information within my home-layout.component.ts file
+            this contains my onInit, a private within the constructor calling InformationService, and has the ngOnInit() class
 Bonus Features:
-  N/A
+  - Moved two other mock-list to my backend:
+    - Menu-layout mock list, mock_menu_layout.component.ts
+      - named menu-layout within firebase
+      - have a service component, menu-layout.service.ts that has all necessary information to output to the website 
+        - this include the stuff within the html file, and originally ts file created with the original component
+    - Menu mock list, mock_menu_layout.component.ts
+      - NOTE: this is different from the one above as they are two different components on two different pages of the website
+      - named menu within firebase
+      - have a service component, menu.service.ts, that has all necessary information to output to the website 
+        - this include the stuff within the html file, and originally ts file created with the original component
+        
+Side Note: 
+  Screenshots are of each component i had modified with my backend.
