@@ -5,6 +5,6 @@ import { Component } from "@angular/core";
     templateUrl: 'gift.component.html',
     styleUrls: ['gift.component.css']
 })
-export class GiftComponent{
+export class GiftComponent {
 
 }

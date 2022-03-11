@@ -1,0 +1,31 @@
+.dd-bring {
+    color: #f56200 !important;
+    font-size: 30px;
+    line-height: normal;
+    width: 100%;
+    height: auto;
+    font-family: DunkinSansDisplay !important;
+    font-weight: bold;
+}
+
+.dd-perks {
+    color: #db0a81 !important;
+    font-size: 30px;
+    line-height: normal;
+    width: 100%;
+    height: auto;
+    font-family: DunkinSansDisplay !important;
+    font-weight: bold;
+
+}
+
+.dd-para {
+    font-size: 20px;
+    line-height: normal;
+    width: 100%;
+    height: auto;
+    font-family: DunkinSansDisplay !important;
+    font-weight: bold;
+
+
+}
