@@ -15,6 +15,6 @@ export class MenuService {
     }
 
     public getMenu() {
-        return this.db.list<MenuItemModel[]>("Menu").valueChanges();
+        return this.db.list<MenuItemModel>("Menu").valueChanges();
     }
 }

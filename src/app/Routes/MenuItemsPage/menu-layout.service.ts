@@ -15,6 +15,6 @@ export class MenuLayoutService {
     }
 
     public getMenuLayout() {
-        return this.http.list<MenuLayoutModel[]>("menu-layout").valueChanges();
+        return this.http.list<MenuLayoutModel>("menu-layout").valueChanges();
     }
 }
