@@ -2,6 +2,7 @@
     color: white;
     font-family: DunkinSansBook, "Monteserrat", sans-serif;
     font-weight: 500;
+    font-size: 20px;
 }
 
 .dd-here {
@@ -9,6 +10,8 @@
     color: white;
     font-weight: 900;
     font-family: DunkinSansBook, "Monteserrat", sans-serif;
+    font-size: 20px;
+
 }
 
 .dd-card {
