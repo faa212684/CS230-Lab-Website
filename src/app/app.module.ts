@@ -32,6 +32,8 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { PerksCardComponent } from './Body/perks-card.component';
 import { FreshCardComponent } from './Body/fresh-card.component';
 import { LearnPerksCardComponent } from './Body/learn-perks-card.component';
+import { NewCardLayoutComponent } from './Routes/new-Card-layout.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -60,14 +62,16 @@ import { LearnPerksCardComponent } from './Body/learn-perks-card.component';
     UserInfoComponent,
     PerksCardComponent,
     FreshCardComponent,
-    LearnPerksCardComponent
+    LearnPerksCardComponent,
+    NewCardLayoutComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

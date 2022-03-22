@@ -11,14 +11,19 @@ import { PerksLayoutComponent } from './Routes/perks-layout.component';
 import { ShopLayoutComponent } from './Routes/shop-layout.component';
 import { CareersLayoutComponent } from './Routes/careers-layout.component';
 import { OpportunitiesLayoutComponent } from './Routes/opportunities-layout.component';
+import { NewCardLayoutComponent } from './Routes/new-Card-layout.component';
 
-const routes:Routes = [
+const routes: Routes = [
   {
     path: '',
     component: HomeLayoutComponent
   },
   {
-    path: 'en/menu', 
+    path: 'admin',
+    component: NewCardLayoutComponent
+  },
+  {
+    path: 'en/menu',
     component: MenuLayoutComponent
   },
   {
