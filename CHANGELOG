@@ -1,32 +1,20 @@
 Main Features:
-  - task 1: Moved my mock-information-list.ts file information to my backend, added all three attributes I had for each
-    - img
-    - header
-    - find
-    - nearest
-    - address
-    - state
-    - hours
-    - phone 
-  - task 2: Created a service component, information.service.ts, to connect my backend information list to the website
-    - contains:
-      - baseURL
-      - informationEndPoint
-      - private HttpClient
-      - getInformation Method
-  - task 3: After creating the service component for the information mock list, i updated the information within my home-layout.component.ts file
-            this contains my onInit, a private within the constructor calling InformationService, and has the ngOnInit() class
+  - task 1: Added the angular fire library during lecture, which allowed me to 
+            publicly deploy my website
+  - task 2: Removed the HTTpClient from my information.service.ts file within the constructor
+            and added the AngularFireDatabase 
+  - task 3: Updated my getInformation() method to allow angularfiredatabase to reach the proper
+            information. As well, got rid of the two private strings as we did not need these anymore.
+  - task 4: Deployed my website to the public by using the ng build and then ng deploy within the terminal
+    - the URL: https://dunkin-donuts-735b8.web.app/
 Bonus Features:
-  - Moved two other mock-list to my backend:
-    - Menu-layout mock list, mock_menu_layout.component.ts
-      - named menu-layout within firebase
-      - have a service component, menu-layout.service.ts that has all necessary information to output to the website 
-        - this include the stuff within the html file, and originally ts file created with the original component
-    - Menu mock list, mock_menu_layout.component.ts
-      - NOTE: this is different from the one above as they are two different components on two different pages of the website
-      - named menu within firebase
-      - have a service component, menu.service.ts, that has all necessary information to output to the website 
-        - this include the stuff within the html file, and originally ts file created with the original component
-        
-Side Note: 
-  Screenshots are of each component i had modified with my backend.
+  - Finished the home page by creating two new components 
+    - fresh-card.component.html
+    - fresh-card.component.ts
+    - fresh-card.component.css
+    - learn-perks-card.component.html
+    - learn-perks-card.component.ts
+    - learn-perks-card.component.css
+  - Also updated my two other service files, to allow the angularfiredatabase
+    - menu.service.ts
+    - menu-layout.service.ts
