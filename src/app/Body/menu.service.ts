@@ -1,19 +1,20 @@
 import { HttpClient } from "@angular/common/http"
 import { Injectable } from "@angular/core";
+import { AngularFireDatabase } from "@angular/fire/compat/database";
 import { MenuItemModel } from "./menu-item.model";
 
 @Injectable({
     providedIn: 'root'
 })
 export class MenuService {
-    private baseUrl: string = "https://dunkin-donuts-735b8-default-rtdb.firebaseio.com/"
-    private menusEndpoint: string = "Menu.json"
+    // private baseUrl: string = "https://dunkin-donuts-735b8-default-rtdb.firebaseio.com/"
+    // private menusEndpoint: string = "Menu.json"
 
-    constructor(private http:HttpClient) {
+    constructor(private db: AngularFireDatabase) {
 
     }
 
-    public getMenu(){
-        return this.http.get<MenuItemModel[]>(this.baseUrl + this.menusEndpoint);
+    public getMenu() {
+        return this.db.list<MenuItemModel[]>("Menu").valueChanges();
     }
 }
