@@ -37,7 +37,6 @@
     border-radius: 20px;
     color: black;
     line-height: 1;
-    text-transform: uppercase;
     cursor: pointer;
     transition: all 250ms ease-in-out;
     font-family: DunkinSansBook, "Montserrat", sans-serif;
