@@ -1,0 +1,36 @@
+.dd-button {
+    background-color: #db0a81;
+    border: 2px solid #db0a81;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: 1.15rem;
+    color: #fff;
+    line-height: 1;
+    height: auto;
+    width: auto;
+    margin: .5rem auto;
+    min-height: 45px;
+    min-width: 200px;
+    padding: 13px;
+    transition: all 250ms ease-in-out;
+    text-decoration-line: none;
+    font-weight: 800;
+    font-style: normal;
+    font-family: DunkinSansDisplay, DunkinSansBook, "Montserrat", sans-serif;
+    
+}
+
+.dd-first {
+    color: #f56200 !important;
+    font-size: 40px;
+    font-family: DunkinSansDisplay !important;
+    font-weight: 800;
+}
+
+.dd-second {
+    color: #db0a81;
+    font-size: 40px;
+    font-family: DunkinSansDisplay !important;
+    font-weight: 800;
+
+}

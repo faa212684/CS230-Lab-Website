@@ -31,6 +31,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { PerksCardComponent } from './Body/perks-card.component';
 import { FreshCardComponent } from './Body/fresh-card.component';
+import { LearnPerksCardComponent } from './Body/learn-perks-card.component';
 
 
 
@@ -58,7 +59,8 @@ import { FreshCardComponent } from './Body/fresh-card.component';
     MobileAppComponent,
     UserInfoComponent,
     PerksCardComponent,
-    FreshCardComponent
+    FreshCardComponent,
+    LearnPerksCardComponent
   ],
   imports: [
     BrowserModule,

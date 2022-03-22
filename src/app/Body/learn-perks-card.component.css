@@ -1,0 +1,52 @@
+.dd-sign-up {
+    background-color: #db0a81;
+    border: 2px solid #db0a81;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: 1.15rem;
+    color: #fff;
+    line-height: 1;
+    height: auto;
+    width: auto;
+    margin: .5rem auto;
+    min-height: 45px;
+    min-width: 200px;
+    padding: 13px;
+    transition: all 250ms ease-in-out;
+    text-decoration-line: none;
+    font-weight: 800;
+    font-style: normal;
+    font-family: DunkinSansDisplay, DunkinSansBook, "Montserrat", sans-serif;
+}
+
+.dd-learn-more {
+    background-color: white;
+    border: 2px solid #db0a81;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: 1.15rem;
+    color: #db0a81;
+    line-height: 1;
+    text-transform: uppercase;
+    height: auto;
+    margin: .5rem auto;
+    width: auto;
+    min-height: 45px;
+    min-width: 200px;
+    padding: 13px;
+    text-align: center;
+    transition: all 250ms ease-in-out;
+    text-decoration-line: none;
+    font-style: normal;
+    font-family: DunkinSansDisplay, DunkinSansBook, "Montserrat", sans-serif;
+}
+.dd-learn-more:hover {
+    background-color: #db0a81;
+    border: #db0a81;
+    color: white;
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
