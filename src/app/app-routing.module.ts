@@ -12,6 +12,7 @@ import { ShopLayoutComponent } from './Routes/shop-layout.component';
 import { CareersLayoutComponent } from './Routes/careers-layout.component';
 import { OpportunitiesLayoutComponent } from './Routes/opportunities-layout.component';
 import { NewCardLayoutComponent } from './Routes/new-Card-layout.component';
+import { SignInLayoutComponent } from './Routes/sign-in-layout.component';
 
 const routes: Routes = [
   {
@@ -53,6 +54,10 @@ const routes: Routes = [
   {
     path: 'en/careers/career-opportunities',
     component: OpportunitiesLayoutComponent
+  },
+  {
+    path: 'en/sign-in',
+    component: SignInLayoutComponent
   }
 
 ];

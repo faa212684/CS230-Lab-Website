@@ -34,6 +34,7 @@ import { FreshCardComponent } from './Body/fresh-card.component';
 import { LearnPerksCardComponent } from './Body/learn-perks-card.component';
 import { NewCardLayoutComponent } from './Routes/new-Card-layout.component';
 import { FormsModule } from '@angular/forms';
+import { SignInLayoutComponent } from './Routes/sign-in-layout.component';
 
 
 
@@ -63,7 +64,8 @@ import { FormsModule } from '@angular/forms';
     PerksCardComponent,
     FreshCardComponent,
     LearnPerksCardComponent,
-    NewCardLayoutComponent
+    NewCardLayoutComponent,
+    SignInLayoutComponent
   ],
   imports: [
     BrowserModule,
