@@ -1,6 +1,8 @@
 import { Component, OnInit } from "@angular/core";
 import { MenuItemModel } from "../Body/menu-item.model";
 import { MenuService } from "../Body/menu.service";
+import { MenuLayoutModel } from "./MenuItemsPage/menu-layout.model";
+import { MenuLayoutService } from "./MenuItemsPage/menu-layout.service";
 
 @Component({
     selector: 'DD-new-Card-layout',
@@ -9,13 +11,13 @@ import { MenuService } from "../Body/menu.service";
 })
 
 export class NewCardLayoutComponent implements OnInit {
-    constructor(public ms: MenuService) { }
+    constructor(public ms: MenuLayoutService) { }
 
     ngOnInit(): void {
         throw new Error("Method not implemented.");
     }
 
-    addProduct(menu: MenuItemModel) {
+    addProduct(menu: MenuLayoutModel) {
         console.log("You clicked add card");
         console.log(menu);
         this.ms.addMenu(menu);

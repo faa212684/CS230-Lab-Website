@@ -1,0 +1,41 @@
+.dd-bring {
+    font-size: 60px;
+    font-family: DunkinSansDisplay !important;    
+    font-weight: bold;
+}
+
+.dd-sign-up {
+    background-color: white;
+    text-decoration-line: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: black;
+    line-height: 1;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.dd-password {
+    color: #db0a81;
+    font-weight: bold;
+    transition: color 250ms ease-in-out;
+    font-size: 14px;
+    font-family: DunkinSansDisplay, "Montserrat", sans-serif;
+}
+
+.dd-sign-in {
+    background-color: #db0a81;
+    border: 2px solid #db0a81;
+    border-radius: 20px;
+    color: #fff;
+    line-height: 1;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+    text-decoration-line: none;
+}
+
+.dd-sign-in:hover {
+    background-color: #752552;
+}

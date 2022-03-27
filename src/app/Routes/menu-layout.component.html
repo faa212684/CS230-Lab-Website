@@ -1,11 +1,17 @@
 <DD-menuheader>Loading...</DD-menuheader>
-<div class="container d-flex">
-    <div *ngFor="let menuLayout of menuLayouts">
-        <DD-menupage img={{menuLayout.img}} header={{menuLayout.header}} button={{menuLayout.button}}>
-            Loading...
-        </DD-menupage>
+<div class="container">
+    <div class="row">
+        <div class="col-4" *ngFor="let menuLayout of menuLayouts">
+            <DD-menupage class="mx-2" img={{menuLayout.img}} header={{menuLayout.header}} button={{menuLayout.button}}>
+                Loading...
+            </DD-menupage>
+        </div>
     </div>
 </div>
-<DD-mobileapp>Loading...</DD-mobileapp>
+<div class="">
+    <span class="border-0">
+        <DD-mobileapp>Loading...</DD-mobileapp>
+    </span>
+</div>
 
 <!-- <DD-menupage>Loading...</DD-menupage> -->
