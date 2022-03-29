@@ -1,20 +1,21 @@
 Main Features:
-  - task 1: Added the angular fire library during lecture, which allowed me to 
-            publicly deploy my website
-  - task 2: Removed the HTTpClient from my information.service.ts file within the constructor
-            and added the AngularFireDatabase 
-  - task 3: Updated my getInformation() method to allow angularfiredatabase to reach the proper
-            information. As well, got rid of the two private strings as we did not need these anymore.
-  - task 4: Deployed my website to the public by using the ng build and then ng deploy within the terminal
-    - the URL: https://dunkin-donuts-735b8.web.app/
+  - task 1: Add new component for the admin to add cards to my menu page for each menu item
+    - new-card-layout.component.html
+      - component containers each of the paths for image, header, and statement each cards obtains
+    - new-card-layout.component.ts
+    - new-card-layout.component.css
+  - task 2: added addmenu method to my service component under menu-layout.service.ts
+  - task 3: added the addmenu method to my new-card-layout.component.ts to the addproduct()
+    - after added to ts file, was added to the html file within the <form> class 
 Bonus Features:
-  - Finished the home page by creating two new components 
-    - fresh-card.component.html
-    - fresh-card.component.ts
-    - fresh-card.component.css
-    - learn-perks-card.component.html
-    - learn-perks-card.component.ts
-    - learn-perks-card.component.css
-  - Also updated my two other service files, to allow the angularfiredatabase
-    - menu.service.ts
-    - menu-layout.service.ts
+  - added routing to my sign up page, the page also contains a sign in component for the page 
+    - sign-in-layout.component.html
+    - sign-in-layout.component.ts
+    - sign-in-layout.component.css
+  - fixed css for many components to allow more accurate representation
+  - fixed the layout for the menu-layout.component.html components 
+    - the cards for each menu items were all in a list, now they are seperated by row for 3 cards in each row 
+  - added another form for information.service.ts component
+    - added it to the admin page
+    - added it to the new-card-layout.html and ts files 
+    - added addInfo metho to ts file for new card and add addInformation to service component
