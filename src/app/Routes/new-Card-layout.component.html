@@ -21,7 +21,64 @@
                     <input type="text" class="form-control" ngModel name="statement">
                 </div>
 
-                <button type="submit" class="btn btn-light">Add Stuff</button>
+                <button type="submit" class="btn btn-light">Add Menu Item</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addInfo(postForm.value)">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Image Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Header:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="header">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Find:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="statement">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Nearest:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="statement">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">
+                        address:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="statement">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">
+                        State:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="statement">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Hours:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="statement">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Phone:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="statement">
+                </div>
+
+                <button type="submit" class="btn btn-light">Add Information</button>
             </form>
         </div>
     </div>

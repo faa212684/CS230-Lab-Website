@@ -10,12 +10,16 @@ export class InformationService {
     // private baseUrl: string = "https://dunkin-donuts-735b8-default-rtdb.firebaseio.com/"
     // private informationEndpoint: string = "information.json"
 
-    constructor(private db:AngularFireDatabase) {
+    constructor(private db: AngularFireDatabase) {
 
     }
 
-    public getInformation(){
+    public getInformation() {
         // return this.http.get<InformationListModel[]>(this.baseUrl + this.informationEndpoint);
         return this.db.list<InformationListModel>("information").valueChanges();
+    }
+
+    addInformation(info: InformationListModel) {
+        this.db.list<InformationListModel>("information").push(info);
     }
 }
