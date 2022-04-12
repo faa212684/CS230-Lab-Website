@@ -1,21 +1,18 @@
 Main Features:
-  - task 1: Add new component for the admin to add cards to my menu page for each menu item
-    - new-card-layout.component.html
-      - component containers each of the paths for image, header, and statement each cards obtains
-    - new-card-layout.component.ts
-    - new-card-layout.component.css
-  - task 2: added addmenu method to my service component under menu-layout.service.ts
-  - task 3: added the addmenu method to my new-card-layout.component.ts to the addproduct()
-    - after added to ts file, was added to the html file within the <form> class 
+  - task 1: I enabled the firebase authentication within my firebase
+  - task 2: Created a folder to hold the authentication components 
+    - folder: auth/authentication
+      - authentication.component.html
+      - authentication.component.ts
+      - authentication.component.css
+  - task 3: Created a service component to add the methods for signUp
+  - task 4: added the service component to the html and ts component to send a 
+            message to the websites console that would say it was clicked. The data
+            was then added to my firebase
 Bonus Features:
-  - added routing to my sign up page, the page also contains a sign in component for the page 
-    - sign-in-layout.component.html
-    - sign-in-layout.component.ts
-    - sign-in-layout.component.css
-  - fixed css for many components to allow more accurate representation
-  - fixed the layout for the menu-layout.component.html components 
-    - the cards for each menu items were all in a list, now they are seperated by row for 3 cards in each row 
-  - added another form for information.service.ts component
-    - added it to the admin page
-    - added it to the new-card-layout.html and ts files 
-    - added addInfo metho to ts file for new card and add addInformation to service component
+  - Created a authResponse.ts to the authentication folder to allow a new method
+    to be created for logging in. 
+  - Created the login method that takes in an email and password and takes in a secure
+    token to be saved so that it is not public. 
+  - Created if statements within the authentication component to return a response that
+    login or sign up was clicked and would save that to the firebase 
